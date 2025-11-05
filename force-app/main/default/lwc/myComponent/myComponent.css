@@ -1,0 +1,7 @@
+.custom-container {
+	color: red;
+	font-size: large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+	text-align: center;
+}

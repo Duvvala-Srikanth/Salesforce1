@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Hello World Component" icon-name="standard:account">
+        <p class="slds-p-around_medium">
+            Hello, World! Welcome to LWC.
+        </p>
+        <lightning-button label="Click Me" onclick={handleClick}></lightning-button>
+        <p if:true={message}>{message}</p>
+    </lightning-card>
+</template>
